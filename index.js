@@ -12,13 +12,6 @@ require("dotenv").config()
 app.use(express.json())
 
 app.use(cors())
-app.get("/", (req, res) => {
-    res.json({
-        status: 200,
-        message: "hello world"
-    })
-})
-app.use("/api/register", register)
 
 app.use("/api/login", login)
 app.use("/api/overview", overviewRoute)
