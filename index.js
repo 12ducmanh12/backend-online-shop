@@ -25,7 +25,7 @@ app.get("/", (req, res) => {
 });
 
 
-const port = process.env.port || 5000;
+const port = process.env.port || 8080;
 const uri = process.env.DB_URI
 app.listen(port, console.log(`Server running on port ${port}`))
 
