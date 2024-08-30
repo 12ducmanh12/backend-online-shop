@@ -20,4 +20,4 @@ jobs:
     - name: Build the Docker image
       run: docker build -t backend-online-shop .
     - name: Push to DockerHub
-      run: docker push manhtrinh2104/backend-online-shop
+      run: docker push manhtrinh2104/backend-online-shop:latest
